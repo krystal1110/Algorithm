@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB2FE875279FF57C007AEB2C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2FE874279FF57C007AEB2C /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB2FE86F279FF57C007AEB2C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FB00756227A2D29F00127564 /* 删除链表的倒数第N个节点.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "删除链表的倒数第N个节点.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FB00756327A2E5A900127564 /* 买卖股票的最佳时机.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "买卖股票的最佳时机.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FB00756427A2E63E00127564 /* 爬楼梯.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "爬楼梯.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FB2FE871279FF57C007AEB2C /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2FE874279FF57C007AEB2C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FB2FE87E279FF65B007AEB2C /* 删除链表中的节点.playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "删除链表中的节点.playground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FB2FE87F279FF883007AEB2C /* 翻转链表.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "翻转链表.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FB2FE88027A002F7007AEB2C /* 判断链表是否有环.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "判断链表是否有环.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FB2FE88127A00672007AEB2C /* 合并两个有序链表.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "合并两个有序链表.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FB2FE88227A0E754007AEB2C /* 返回链表的中间节点.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "返回链表的中间节点.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FB2FE88327A0EA04007AEB2C /* 有效的括号.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "有效的括号.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FB2FE88427A0EBE0007AEB2C /* 括号的分数.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "括号的分数.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FB2FE88527A114A2007AEB2C /* 用栈实现队列.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "用栈实现队列.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FB2FE88627A1174B007AEB2C /* 用队列实现栈.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "用队列实现栈.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FB31FE7127B36BF500D4E0E0 /* 二叉树前序遍历.playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "二叉树前序遍历.playground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FB87E3F327B5FDD200C779F2 /* 二叉树后序遍历.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "二叉树后序遍历.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FB87E44A27B6453300C779F2 /* 两数相加.playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "两数相加.playground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FB87E49A27B951CB00C779F2 /* 最长回文子串.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "最长回文子串.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FB87E49E27BA477900C779F2 /* 无重复字符的最长子串.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "无重复字符的最长子串.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FB87E49F27BA591A00C779F2 /* 电话号码的字母组合.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "电话号码的字母组合.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FB87E4A027BB488700C779F2 /* 二叉树的右视图.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "二叉树的右视图.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FB87E4A227BB744B00C779F2 /* 括号生成.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "括号生成.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FBC59CCB27A68ED90079F4DA /* 合并二叉树.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "合并二叉树.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FBC59CCC27A68EEC0079F4DA /* 翻转二叉树.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "翻转二叉树.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FBC59CCD27A68F010079F4DA /* 二叉树中序遍历.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "二叉树中序遍历.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FBC59CCE27A68F140079F4DA /* 二叉树层序遍历.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "二叉树层序遍历.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FBC59CCF27A68F640079F4DA /* 二叉树的最大深度.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "二叉树的最大深度.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FBC59CD027A68F820079F4DA /* 对称二叉树.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "对称二叉树.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FBC59CD127A68FAA0079F4DA /* 验证二叉搜索树.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "验证二叉搜索树.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB2FE86E279FF57C007AEB2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB2FE868279FF57C007AEB2C = {
+			isa = PBXGroup;
+			children = (
+				FB2FE873279FF57C007AEB2C /* Algorithm */,
+				FB2FE872279FF57C007AEB2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB2FE872279FF57C007AEB2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB2FE871279FF57C007AEB2C /* Algorithm */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB2FE873279FF57C007AEB2C /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				FB87E4A127BB743200C779F2 /* 递归 */,
+				FB87E49927B951BA00C779F2 /* 字符串相关 */,
+				FB2FE87D279FF607007AEB2C /* 链表 */,
+				FB2FE87B279FF58B007AEB2C /* 栈 */,
+				FB2FE87C279FF598007AEB2C /* 队列 */,
+				FB2FE88727A11A63007AEB2C /* 二叉树 */,
+				FB2FE88827A11AF7007AEB2C /* 双指针 */,
+				FB2FE88927A11B03007AEB2C /* 动态规划 */,
+				FB2FE874279FF57C007AEB2C /* main.swift */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		FB2FE87B279FF58B007AEB2C /* 栈 */ = {
+			isa = PBXGroup;
+			children = (
+				FB2FE88327A0EA04007AEB2C /* 有效的括号.playground */,
+				FB2FE88427A0EBE0007AEB2C /* 括号的分数.playground */,
+				FB2FE88527A114A2007AEB2C /* 用栈实现队列.playground */,
+			);
+			path = "栈";
+			sourceTree = "<group>";
+		};
+		FB2FE87C279FF598007AEB2C /* 队列 */ = {
+			isa = PBXGroup;
+			children = (
+				FB2FE88627A1174B007AEB2C /* 用队列实现栈.playground */,
+			);
+			path = "队列";
+			sourceTree = "<group>";
+		};
+		FB2FE87D279FF607007AEB2C /* 链表 */ = {
+			isa = PBXGroup;
+			children = (
+				FB2FE87E279FF65B007AEB2C /* 删除链表中的节点.playground.playground */,
+				FB2FE87F279FF883007AEB2C /* 翻转链表.playground */,
+				FB2FE88027A002F7007AEB2C /* 判断链表是否有环.playground */,
+				FB2FE88127A00672007AEB2C /* 合并两个有序链表.playground */,
+				FB2FE88227A0E754007AEB2C /* 返回链表的中间节点.playground */,
+				FB00756227A2D29F00127564 /* 删除链表的倒数第N个节点.playground */,
+				FB87E44A27B6453300C779F2 /* 两数相加.playground.playground */,
+			);
+			path = "链表";
+			sourceTree = "<group>";
+		};
+		FB2FE88727A11A63007AEB2C /* 二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				FB31FE7127B36BF500D4E0E0 /* 二叉树前序遍历.playground.playground */,
+				FB87E3F327B5FDD200C779F2 /* 二叉树后序遍历.playground */,
+				FBC59CCD27A68F010079F4DA /* 二叉树中序遍历.playground */,
+				FBC59CCE27A68F140079F4DA /* 二叉树层序遍历.playground */,
+				FBC59CD027A68F820079F4DA /* 对称二叉树.playground */,
+				FBC59CCB27A68ED90079F4DA /* 合并二叉树.playground */,
+				FBC59CCC27A68EEC0079F4DA /* 翻转二叉树.playground */,
+				FBC59CD127A68FAA0079F4DA /* 验证二叉搜索树.playground */,
+				FBC59CCF27A68F640079F4DA /* 二叉树的最大深度.playground */,
+				FB87E4A027BB488700C779F2 /* 二叉树的右视图.playground */,
+			);
+			path = "二叉树";
+			sourceTree = "<group>";
+		};
+		FB2FE88827A11AF7007AEB2C /* 双指针 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "双指针";
+			sourceTree = "<group>";
+		};
+		FB2FE88927A11B03007AEB2C /* 动态规划 */ = {
+			isa = PBXGroup;
+			children = (
+				FB00756327A2E5A900127564 /* 买卖股票的最佳时机.playground */,
+				FB00756427A2E63E00127564 /* 爬楼梯.playground */,
+			);
+			path = "动态规划";
+			sourceTree = "<group>";
+		};
+		FB87E49927B951BA00C779F2 /* 字符串相关 */ = {
+			isa = PBXGroup;
+			children = (
+				FB87E49A27B951CB00C779F2 /* 最长回文子串.playground */,
+				FB87E49E27BA477900C779F2 /* 无重复字符的最长子串.playground */,
+				FB87E49F27BA591A00C779F2 /* 电话号码的字母组合.playground */,
+			);
+			path = "字符串相关";
+			sourceTree = "<group>";
+		};
+		FB87E4A127BB743200C779F2 /* 递归 */ = {
+			isa = PBXGroup;
+			children = (
+				FB87E4A227BB744B00C779F2 /* 括号生成.playground */,
+			);
+			path = "递归";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB2FE870279FF57C007AEB2C /* Algorithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2FE878279FF57C007AEB2C /* Build configuration list for PBXNativeTarget "Algorithm" */;
+			buildPhases = (
+				FB2FE86D279FF57C007AEB2C /* Sources */,
+				FB2FE86E279FF57C007AEB2C /* Frameworks */,
+				FB2FE86F279FF57C007AEB2C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Algorithm;
+			productName = Algorithm;
+			productReference = FB2FE871279FF57C007AEB2C /* Algorithm */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB2FE869279FF57C007AEB2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FB2FE870279FF57C007AEB2C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FB2FE86C279FF57C007AEB2C /* Build configuration list for PBXProject "Algorithm" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB2FE868279FF57C007AEB2C;
+			productRefGroup = FB2FE872279FF57C007AEB2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB2FE870279FF57C007AEB2C /* Algorithm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB2FE86D279FF57C007AEB2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2FE875279FF57C007AEB2C /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FB2FE876279FF57C007AEB2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB2FE877279FF57C007AEB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FB2FE879279FF57C007AEB2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72A32H9VNN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FB2FE87A279FF57C007AEB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72A32H9VNN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB2FE86C279FF57C007AEB2C /* Build configuration list for PBXProject "Algorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2FE876279FF57C007AEB2C /* Debug */,
+				FB2FE877279FF57C007AEB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB2FE878279FF57C007AEB2C /* Build configuration list for PBXNativeTarget "Algorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2FE879279FF57C007AEB2C /* Debug */,
+				FB2FE87A279FF57C007AEB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB2FE869279FF57C007AEB2C /* Project object */;
+}
